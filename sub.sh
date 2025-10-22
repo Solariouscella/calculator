@@ -5,6 +5,6 @@ if [ $# -ne 2 ]; then
     exit 1
 fi
 
-result=$(echo "$1 + $2" | bc)
+result=$(echo "$1 - $2" | bc)
 echo "Result: $result"
 

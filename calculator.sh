@@ -17,6 +17,12 @@ case $op in
     add)
         ./add.sh "$num1" "$num2"
         ;;
+		sub)
+        ./sub.sh "$num1" "$num2"
+        ;;
+		div)
+        ./div.sh "$num1" "$num2"
+        ;;
     *)
         echo "Invalid operation! Use add, sub, or div."
         exit 1
